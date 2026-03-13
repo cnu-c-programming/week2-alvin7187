@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
    
     printf("%10s %10s %10s\n", "name", "id", "value");

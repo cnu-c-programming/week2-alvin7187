@@ -2,12 +2,12 @@
 
 int main(){
     int var1 = 100;
-    printf("int: %d\n",var1);
-    printf("hex: %o\n",var1);
-    printf("oct: %x\n",var1);
+    printf("int : %d\n",var1);
+    printf("hex : %o\n",var1);
+    printf("oct : %x\n",var1);
     
     char var2 = 'c';
-    printf("int: %d\n",var2);
+    printf("int : %d\n",var2);
 
     char* var3 = "hello world!";
     printf("string : %s\n", var3);

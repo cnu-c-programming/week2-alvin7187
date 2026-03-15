@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+   
+    char X = 127;
+    X = X + 1;
 
-int main()
-{
+    printf("%d\n", X);
 
     return 0;
 }
-

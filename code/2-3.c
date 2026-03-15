@@ -1,8 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
+int main(){
+   unsigned int x = 0x12345678;
 
-int main()
-{
+   unsigned char* addr = (unsigned char*)&x;
 
-    return 0;
+   printf("%x\n", *addr);
+   printf("%x\n", *(addr + 1));
+   printf("%x\n", *(addr + 2));
+   printf("%x\n", *(addr + 3));
+   
+
+   return 0;
 }
-
